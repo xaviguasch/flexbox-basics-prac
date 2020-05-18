@@ -7,14 +7,18 @@
 .container {
   border: 3px solid black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap;
+  height: 80vh;
+  align-content: flex-start; */
 }
 
 .box {
   height: 10rem;
-  width: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
 }
 
 .box1 {
